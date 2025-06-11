@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two HTML</title>
+    <link rel="icon" type="image" href="in-love.png">
+    <style>
+        #marry {
+            font-size: 60px;
+            font-weight: bold;
+            font-display: optional;
+            font-style: oblique;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: cyan;
+        }
+
+        #button1 {
+            margin: 0;
+            position: absolute;
+            top: 70%;
+            right: 30%;
+            background-color: #32CD32;
+            font-size: 30px;
+            color: white;
+            border: 3px solid purple;
+            border-radius: 25px;
+
+        }
+
+        #button1:hover {
+            color: black;
+            background-color: aqua;
+            box-shadow: 10px 10px 5px black;
+            cursor: pointer;
+        }
+
+        #button2:hover {
+            color: black;
+            background-color: crimson;
+            box-shadow: 10px 10px 5px black;
+            cursor: pointer;
+
+        }
+
+        #button2 {
+            margin: 0;
+            position: absolute;
+            top: 70%;
+            left: 30%;
+            background-color: red;
+            font-size: 30px;
+            color: white;
+            border: 3px solid purple;
+            border-radius: 25px;
+        }
+
+        #night {
+            margin: 0;
+            position: absolute;
+            right: 45%;
+            height: 300px;
+            width: 300px;
+        }
+
+        body {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="marry" align="center">Don't make me angry,&#128548;</h1>
+    <h2 style="color:aliceblue" align="center"> I will beat you &#128075;.</h2>
+    <img src="angry.gif" id="night">
+    <button id="button1" style="height:80px; width:200px;" onclick="ThankYou();">Yes</button>
+    <button id="button2" style="height:80px; width:200px;" onclick="Threehtml();">No</button>
+    <script>
+        function ThankYou() {
+            window.open("Marryme2.html");
+        }
+        function Threehtml() {
+            window.open("Threehtml.html");
+        }
+    </script>
+</body>
+
+
+</html>

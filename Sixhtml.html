@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three HTML</title>
+    <link rel="icon" type="image" href="in-love.png">
+    <style>
+        #marry {
+            font-size: 60px;
+            font-weight: bold;
+            font-display: optional;
+            font-style: oblique;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: whitesmoke;
+        }
+
+        #button1 {
+            margin: 0;
+            position: absolute;
+            top: 70%;
+            right: 45%;
+            background-color: #32CD32;
+            font-size: 30px;
+            color: white;
+            border: 3px solid purple;
+            border-radius: 25px;
+
+        }
+
+        #button1:hover {
+            color: black;
+            background-color: aqua;
+            box-shadow: 10px 10px 5px black;
+            cursor: pointer;
+        }
+
+        #night {
+            margin: 0;
+            position: absolute;
+            top: 40%;
+            right: 57%;
+            height: 200px;
+            width: 200px;
+        }
+
+        #night2 {
+            margin: 0;
+            position: absolute;
+            top: 40%;
+            right: 30%;
+            height: 200px;
+            width: 200px;
+        }
+
+
+        body {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="marry" align="center">&#128517; Now there is no option, just say "yes",you can't do anything. &#128514;
+    </h1>
+    <img src="sathsath.gif" id="night">
+    <img src="hand.gif" id="night2">
+    <button id="button1" style="height:100px; width:300px;" onclick="ThankYou();">Yes</button>
+    <script>
+        function ThankYou() {
+            window.open("Marryme2.html");
+        }
+
+    </script>
+</body>
+
+
+</html>
